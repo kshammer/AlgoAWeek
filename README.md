@@ -1,2 +1,5 @@
-# AlgoAWeek
-An Algo a week gets me a job 
+# An Algorithm each week
+
+## BFS
+
+* Due April 7th
