@@ -11,10 +11,9 @@ def bfs():
     q = queue.Queue()
     #g.add_node(-1)  I want to do some kind of find a node thing or something idk 
     #g.add_edge(14, -1)
-
     q.put(list(g.nodes()).pop(0))
-
-    while q.full():
+    print(q.empty())
+    while not q.empty(): # for some reason queue.full() doesn't return true even if something is in there. Very confusing. 
         print(q.get())
 
 if __name__ == "__main__":
